@@ -34,3 +34,7 @@ CREATE TABLE alumno_curso (
   FOREIGN KEY (id_alumno) REFERENCES alumno(id),
   FOREIGN KEY (id_curso) REFERENCES curso(id)
 );
+
+INSERT INTO usuario VALUES (1, 'admin@admin.com', 'admin', 'admin','admin');
+INSERT INTO usuario VALUES (2, 'docente@docente.com', 'docente', 'docente','docente');
+
