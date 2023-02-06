@@ -16,6 +16,10 @@ connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
  
 connection.end();
 
-app.listen(5000, ()=>{
-    console.log('Servidor escuchando en el puerto 5000')
+// app.listen(5000, ()=>{
+//     console.log('Servidor escuchando en el puerto 5000')
+// })
+
+app.listen(3000, () => {
+  console.log("Corriendo en el puerto 3000");
 })
